@@ -21,7 +21,7 @@ fun main() {
     println(salarios.count{it in 2000.0..5000.0})
 
     println("----------------------")
-    //encontra a conta que é igual a 2250.0 , vai direto.
+    //search a conta que é igual a 2250.0 , vai direto.
     println(salarios.find{it == 2250.0})
     println(salarios.find{it == 50.0})
 
