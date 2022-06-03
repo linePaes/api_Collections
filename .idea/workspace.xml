@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa62940-38a5-4072-beea-029279038a54" name="Changes" comment="Test Set: union,subtract, intersect">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/collections/TestMap.kt" afterDir="false" />
+    <list default="true" id="7fa62940-38a5-4072-beea-029279038a54" name="Changes" comment="Test Map: mapOf, pair">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/collections/Repository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/collections/TestCollectionsMutable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/collections/TestMutableMap.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
@@ -41,9 +44,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.TestMapKt">
-    <configuration name="TestDoubleArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.collections.TestDoubleArrayKt" />
+  <component name="RunManager" selected="Kotlin.TestMutableMapKt">
+    <configuration name="TestCollectionsMutableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.collections.TestCollectionsMutableKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOperacoesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.collections.TestOperacoesKt" />
+    <configuration name="TestMutableMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.collections.TestMutableMapKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TestMutableMapKt" />
+        <item itemvalue="Kotlin.TestCollectionsMutableKt" />
         <item itemvalue="Kotlin.TestMapKt" />
         <item itemvalue="Kotlin.TestSetKt" />
         <item itemvalue="Kotlin.TestListKt" />
-        <item itemvalue="Kotlin.TestOperacoesKt" />
-        <item itemvalue="Kotlin.TestDoubleArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654273471457</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test Map: mapOf, pair">
+      <created>1654274401558</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654274401558</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +175,7 @@
     <MESSAGE value="Test operações, maior, menor, média, contar, buscar...." />
     <MESSAGE value="Test list" />
     <MESSAGE value="Test Set: union,subtract, intersect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Set: union,subtract, intersect" />
+    <MESSAGE value="Test Map: mapOf, pair" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Map: mapOf, pair" />
   </component>
 </project>
