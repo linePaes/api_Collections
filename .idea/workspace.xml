@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa62940-38a5-4072-beea-029279038a54" name="Changes" comment="Test operações, maior, menor, média, contar, buscar....">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/collections/TestList.kt" afterDir="false" />
+    <list default="true" id="7fa62940-38a5-4072-beea-029279038a54" name="Changes" comment="Test list">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/collections/Employee.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/collections/TestSet.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -40,14 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.TestListKt">
-    <configuration name="TestArrayOfKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.collections.TestArrayOfKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.TestSetKt">
     <configuration name="TestArrayStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.collections.TestArrayStringKt" />
       <module name="consoleApp" />
@@ -76,13 +71,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.collections.TestSetKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TestSetKt" />
         <item itemvalue="Kotlin.TestListKt" />
         <item itemvalue="Kotlin.TestOperacoesKt" />
         <item itemvalue="Kotlin.TestDoubleArrayKt" />
         <item itemvalue="Kotlin.TestArrayStringKt" />
-        <item itemvalue="Kotlin.TestArrayOfKt" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654266025856</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Test list">
+      <created>1654272135019</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654272135019</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +157,7 @@
     <MESSAGE value="Create IntArray test class" />
     <MESSAGE value="Test operações, maior, menor, média, contar, buscar..." />
     <MESSAGE value="Test operações, maior, menor, média, contar, buscar...." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test operações, maior, menor, média, contar, buscar...." />
+    <MESSAGE value="Test list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test list" />
   </component>
 </project>
